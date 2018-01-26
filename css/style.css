@@ -136,6 +136,285 @@ body, html, h1,h2,h3,h4,h5,p {
 
 }
 
+.navs {
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.navs p {
+	margin-top: 16px;
+}
+
+.nav1  {
+	width: 39%;
+	height: 50px;
+	float: left;
+	text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px; 
+    font-family: 'Roboto Condensed', sans-serif; 
+     transition: 1s;   
+}
+
+.nav1:hover  {
+	width: 39%;
+	height: 50px;
+	float: left;
+	text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #328FEB;
+    transition: 1s;    
+}
+
+
+
+.nav3  {
+	width: 20%;
+	height: 50px;
+	float: left;
+	text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 1s;
+}
+
+.nav3:hover  {
+	width: 20%;
+	height: 50px;
+	float: left;
+	text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #328FEB;
+    transition: 1s;
+}
+
+.nav4  {
+	width: 20%;
+	height: 50px;
+	float: left;
+	text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 1s;
+}
+
+.nav4:hover  {
+	width: 20%;
+	height: 50px;
+	float: left;
+	text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #328FEB;
+    transition: 1s;
+}
+
+.nav5  {
+	width: 20%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+	font-size: 16px;
+	font-family: 'Roboto Condensed', sans-serif; 
+    transition: 1s;
+}
+
+.nav5:hover  {
+	width: 20%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+	font-size: 16px;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #328FEB; 
+    transition: 1s;
+}
+
+
+
+
+/*top-banners*/
+
+.top-banners {
+	width: 100%;
+	height: 100px;
+	
+
+}
+
+.ban1-txt p {
+	color: #2E7AD3;
+    font-size: 14px;
+    /* margin-top: 16px; */
+    margin-left: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ban2-txt p {
+	color: #2E7AD3;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ban3-txt p {
+	color: #2E7AD3;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ban4-txt p {
+	color: #2E7AD3;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ban5-txt p {
+	color: #2E7AD3;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.ban1,
+.ban2,
+.ban3,
+.ban4,
+.ban5 {
+	width: 19%;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 9px;
+    border: 1px dotted #1976D2;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
+.ban1:hover,
+.ban2:hover,
+.ban3:hover,
+.ban4:hover,
+.ban5:hover {
+	width: 19%;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 9px;
+    border: 1px dotted #1976D2;
+    background-color:rgba(50,143,235,0.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.ban1-img {
+	width: 39%;
+	height: 78px;
+	float: left;
+	
+
+}
+
+.ban1-txt {
+	width: 59%;
+	height: 78px;
+	float: left;
+	
+}
+
+.ban2-img {
+	width: 39%;
+	height: 78px;
+	float: left;
+	
+
+}
+
+.ban2-txt {
+	width: 59%;
+	height: 78px;
+	float: left;
+	
+}
+
+.ban3-img {
+	width: 39%;
+	height: 78px;
+	float: left;
+	
+
+}
+
+.ban3-txt {
+	width: 59%;
+	height: 78px;
+	float: left;
+	
+}
+
+.ban4-img {
+	width: 39%;
+	height: 78px;
+	float: left;
+	
+
+}
+
+.ban4-txt {
+	width: 59%;
+	height: 78px;
+	float: left;
+	
+}
+
+.ban5-img {
+	width: 39%;
+	height: 78px;
+	float: left;
+	
+
+}
+
+.ban5-txt {
+	width: 59%;
+	height: 78px;
+	float: left;
+	
+}
+
+
+
+
+
 
 /*slider*/
 
