@@ -1,0 +1,259 @@
+/* init */
+
+body, html, h1,h2,h3,h4,h5,p {
+	margin: 0;
+	padding: 0;
+}
+
+.body-fon {
+	    background: url("../img/fon.jpg");
+}
+.wrapper {
+	width: 90%;
+	height: 2200px;
+	margin: 0 auto;
+	background-color: #fff;
+	
+
+}
+/*top*/
+
+.top {
+	width: 100%;
+	height: 220px;
+	/*background-image: url(../img/fon2grin.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;*/
+	
+}
+
+.logo {
+	width: 30%;
+	height: 220px;
+	float: left;
+}
+
+.logo-img {
+	width: 80%;
+    height: 150px;
+    /* border: 1px solid #1976D2; */
+    margin-left: 36px;
+    margin-top: 31px;
+    background-image: url(../img/logo2.jpg);
+    background-position: 50% 50%;
+    background-size: 237px 150px;
+    background-repeat: no-repeat;
+}
+
+
+	
+	
+
+
+.top-txt {
+	width: 69.5%;
+	height: 220px;
+	float: left;
+	/*background-image: url(../img/fon2grin.jpg);*/
+}
+
+.top-txt h4 {
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#837CB8;
+	margin-top: 30px;
+}
+
+.top-txt h5 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#837CB8;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.top-txt h1 {
+	font-family: 'Open Sans', sans-serif;
+	color:#1976D2;
+	font-weight: 500;
+	margin-top: 30px;
+
+}
+
+.reward {
+	width: 100%;
+	height: 65px;
+	/*border:1px solid red;*/
+}
+
+.reward1 {
+	width: 65px;
+    height: 72px;
+    background-image: url(../img/medal2.jpg);
+    background-position: -42% 9%;
+    float: left;
+    margin-left: 427px;
+}
+
+.reward2 {
+    width: 65px;
+    height: 72px;
+    background-image: url(../img/medal2.jpg);
+    background-position: -58% 9%;
+    float: left;
+}
+
+.reward3 {
+    width: 65px;
+    height: 72px;
+    background-image: url(../img/medal2.jpg);
+    background-position: -95% 20%;
+    float: left;
+}
+
+.reward4 {
+    width: 65px;
+    height: 72px;
+    background-image: url(../img/medal2.jpg);
+    background-position: -95% 33%;
+    float: left;
+}
+
+.reward5 {
+    width: 65px;
+    height: 72px;
+    background-image: url(../img/medal2.jpg);
+    background-position: -77% 33%;
+    float: left;
+}
+
+
+/*top-nav*/
+
+.top-nav {
+   width: 100%;
+   height: 50px;
+   background-color: #1976D2;
+
+}
+
+
+/*slider*/
+
+.slider {
+   width: 100%;
+   height: 160px;
+   border:1px solid #1976D2;
+
+}
+
+.slider p {
+   text-align: center;
+}
+
+/*content*/
+
+
+.content-left-nav {
+	width: 30%;
+	float: left;
+	height: 800px;
+	 border:1px solid #1976D2;
+}
+
+.content-right-main {
+	width: 69.5%;
+	float: left;
+	height: 800px;
+	 border:1px solid #1976D2;
+}
+
+
+.left-nav {
+	width: 70%;
+	height: 700px;
+	margin: 0 auto;
+	 border:1px solid #1976D2;
+	 margin-top: 50px;
+}
+
+.main-wiget-blog {
+	width: 100%;
+	height: 250px;
+	border:1px solid #1976D2;
+
+}
+
+.wiget {
+	width: 100%;
+	height: 120px;
+}
+
+.wiget-line {
+	width: 23%;
+	height: 110px;
+	border:1px solid #1976D2;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+
+.news {
+	width: 100%;
+	height: 250px;
+	border:1px solid red;
+	clear: both;
+}
+
+.ad {
+	width: 100%;
+	height: 250px;
+	border:1px solid red;
+	clear: both;
+}
+
+
+.video {
+	width: 100%;
+	height: 358px;
+	border:1px solid #1976D2;
+	clear: both;
+	background-color: #F04235;
+}
+
+/*banners*/
+.banners {
+	width: 100%;
+	height: 200px;
+	border:1px solid #1976D2;
+	clear: both;
+}
+
+.banners-line {
+	width: 100%;
+	height: 100px;
+	
+}
+
+.banners-line-step {
+	width: 19%;
+	height: 95px;
+	border:1px solid #1976D2;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+
+}
+
+
+
+
+
+/*footer*/
+.footer {
+	width: 100%;
+	height: 400px;
+	border:1px solid blue;
+	clear: both;
+	background-color: #1976D2;
+
+}
