@@ -548,6 +548,270 @@ body, html, h1,h2,h3,h4,h5,p {
      font-weight: 200;
 }
 
+.navs4 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs4:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs4 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs5 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs5:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs5 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs6 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs6:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs6 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs7 {
+	width: 100%;
+    height: 60px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs7:hover {
+	width: 100%;
+    height: 60px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs7 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs8 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs8:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs8 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs9 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs9:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs9 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs10 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs10:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs10 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs11 {
+	width: 100%;
+    height: 60px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs11:hover {
+	width: 100%;
+    height: 60px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs11 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs12 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs12:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs12 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs13 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs13:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs13 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
+.navs14 {
+	width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #fff;
+     transition: 1s;
+}
+
+.navs14:hover {
+	width: 100%;
+    height: 40px;
+    background-color:#328FEB;
+     transition: 1s;
+}
+
+
+.navs14 h3 {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 49px;
+    padding-top: 9px;
+     font-weight: 200;
+}
+
 
 
 
@@ -575,6 +839,8 @@ body, html, h1,h2,h3,h4,h5,p {
 	float: left;
 }
 
+/*news*/
+
 .news {
 	width: 100%;
 	height: 685px;
@@ -583,21 +849,119 @@ body, html, h1,h2,h3,h4,h5,p {
 	margin-top: 20px;
 }
 
-.ad {
-	width: 100%;
-	height: 250px;
-	border:1px solid red;
-	clear: both;
+.news-head {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #1976D2;
+}
+
+.news-head h2 {
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	padding-top: 8px;
 }
 
 
-.video {
+
+/*video */
+.video-photo {
 	width: 100%;
 	height: 358px;
-	border:1px solid #1976D2;
+	border:1px dotted #1976D2;
 	clear: both;
-	background-color: #F04235;
+	/*background-color: #F04235;*/
 }
+
+.photo {
+	width: 69%;
+	height: 356px;
+	float: left;
+}
+
+.photo-head {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #1976D2;
+}
+
+.photo-head h2 {
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	padding-top: 8px;
+}
+
+.photo-basa {
+	width: 100%;
+	height: 256px;
+	
+}
+
+.video {
+	width: 30%;
+	height: 356px;
+	float: left;
+}
+
+.photo-img-1,
+.photo-img-2,
+.photo-img-3 {
+	width: 32%;
+	height: 250px;
+	float: left;
+	margin-left: 7px;
+	border:1px dotted #1976D2;
+}
+
+/*.photo-bottom {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #1976D2;
+	clear: both;
+	margin-top: 3px;
+}
+
+.photo-bottom h2 {
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	padding-top: 8px;
+}*/
+
+.video-head {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #1976D2;
+
+
+}
+
+.video-head h2{
+   color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	padding-top: 8px;
+}
+
+.video-frame {
+    width: 101%;
+    height: 252px;
+}
+
+
 
 /*banners*/
 .banners {
