@@ -57,7 +57,7 @@ body, html, h1,h2,h3,h4,h5,p {
 	/*background-image: url(../img/fon2grin.jpg);*/
 }
 
-.top-txt h4 {
+/*.top-txt h4 {
 	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
 	color:#837CB8;
@@ -69,7 +69,7 @@ body, html, h1,h2,h3,h4,h5,p {
 	color:#837CB8;
 	font-size: 18px;
 	font-weight: 300;
-}
+}*/
 
 .top-txt h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -79,10 +79,17 @@ body, html, h1,h2,h3,h4,h5,p {
 
 }
 
+.top-txt p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.top-txt span {
+	font-weight: 700;
+}
 .reward {
 	width: 100%;
 	height: 65px;
-	/*border:1px solid red;*/
+	
 }
 
 .reward1 {
@@ -263,7 +270,6 @@ body, html, h1,h2,h3,h4,h5,p {
 .ban1-txt p {
 	color: #2E7AD3;
     font-size: 14px;
-    /* margin-top: 16px; */
     margin-left: 17px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -422,7 +428,7 @@ body, html, h1,h2,h3,h4,h5,p {
 .chif {
 	width: 100%;
 	height: 300px;
-	/*border-bottom:1px dotted #1976D2*/;
+	
 }
 
 .chif-img {
@@ -1067,10 +1073,116 @@ body, html, h1,h2,h3,h4,h5,p {
 
 }
 
+.footer-adr-txt p {
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.footer-phone-txt p {
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.footer-email-txt p {
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.footer-contact-txt-p {
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 76px;
+		
+}
+
+.footer-adr {
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	
+}
+
+
+.footer-phone {
+	width: 100%;
+	height: 60px;
+	
+}
+
+
+.footer-email {
+	width: 100%;
+	height: 60px;
+	
+}
+
+.footer-adr-icon {
+	width: 20%;
+    /* height: 100px; */
+    margin: 0 auto;
+    margin-top: 30px;
+    float: left;
+}
+
+.footer-adr-txt {
+	width: 79%;
+	height: 60px;
+	float: left;
+}
+
+.footer-phone-icon {
+	width: 20%;
+	height: 40px;
+	float: left;
+}
+
+.footer-phone-txt {
+	width: 79%;
+	height: 40px;
+	float: left;
+}
+
+.footer-email-icon {
+	width: 20%;
+	height: 40px;
+	float: left;
+}
+
+.footer-email-txt {
+	width: 79%;
+	height: 40px;
+	float: left;
+}
+
+.sign {
+	width: 100%;
+	height: 50px;
+	border-top:1px dotted #fff;
+}
+
+.sign a {
+	text-decoration: none;
+}
+
+.sign p {
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}
+
 
 .footer-bottom {
 	width: 100%;
 	height: 80px;
-	border:1px solid red;
+	border-top:1px dotted #fff;
 	clear: both;
 }
