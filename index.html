@@ -369,9 +369,19 @@
 			<div class="footer-dop-form">
 				<form action="" method="post">
 				 
-	  <input id="name-id" type="text" name="name">
-	  <input id="email-id" type="email" name="email">
-	  <input type="" name="">
+	  <input id="name-id" class="name-id" type="text" name="name" placeholder="Ваше имя или никнейм">
+
+	  <div class="empty"></div>
+
+	  <input id="email-id" type="email" name="email" placeholder="Ваше почтовый ящик">
+	  <div class="empty"></div>
+	  <textarea id="msg-id" name="msg">Добавьте сюда свой сообщение</textarea>
+	  <div class="g-recaptcha" data-sitekey="6LdDHS8UAAAAAJsr6Mb1D8idhWzkyenFCdpZdx76"></div>
+	    <div class="empty"></div>
+	      <div class="empty"></div>
+	  <div class="form-btn">
+	  	<p>Отправить сообщение</p>
+	  </div>
 				  
 				</form>
            </div>	
@@ -386,6 +396,7 @@
   <script type="text/javascript" src="js/slick.min.js"></script>
   <!-- My script for work and cheng-->
     
-<script type="text/javascript" src="js/script.js"></script>	
+<script type="text/javascript" src="js/script.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>	
 </body>
 </html>
