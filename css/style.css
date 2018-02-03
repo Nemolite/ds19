@@ -33,13 +33,11 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .logo-img {
 	width: 80%;
-    height: 150px;
-    /* border: 1px solid #1976D2; */
+    height: 200px;
     margin-left: 36px;
-    margin-top: 31px;
     background-image: url(../img/logo2.jpg);
     background-position: 50% 50%;
-    background-size: 237px 150px;
+    background-size: 237px 170px;
     background-repeat: no-repeat;
 }
 
@@ -976,10 +974,11 @@ body, html, h1,h2,h3,h4,h5,p {
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
-	padding-top: 8px;
+	padding-top: 11px;
 	margin-top: 8px;
+	font-family: 'Philosopher', sans-serif;
 	
 }
 
@@ -1037,9 +1036,10 @@ body, html, h1,h2,h3,h4,h5,p {
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
-	padding-top: 8px;
+	padding-top: 11px;
+	font-family: 'Philosopher', sans-serif;
 }
 
 .photo-basa {
@@ -1083,9 +1083,10 @@ body, html, h1,h2,h3,h4,h5,p {
    color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
-	padding-top: 8px;
+	padding-top: 11px;
+	font-family: 'Philosopher', sans-serif;
 }
 
 .video-frame {
@@ -1109,9 +1110,9 @@ body, html, h1,h2,h3,h4,h5,p {
 	margin: 0 auto;
 	background-color: #1976D2;
 	margin-top: 5px;
-	border-radius: 0px 0px 7px 0px;
+	/*border-radius: 0px 0px 7px 0px;
 -moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;
+-webkit-border-radius: 0px 0px 7px 0px;*/
 
 }
 
@@ -1119,9 +1120,10 @@ body, html, h1,h2,h3,h4,h5,p {
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
-	padding-top: 8px;
+	padding-top: 11px;
+	font-family: 'Philosopher', sans-serif;
 }
 
 .banners-line {
@@ -1139,6 +1141,8 @@ body, html, h1,h2,h3,h4,h5,p {
 	float: left;
 
 }
+
+
 
 /*footer*/
 .footer {
