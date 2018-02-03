@@ -430,9 +430,10 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .chif-img {
 	width: 80%;
-	height: 222px;
-	margin: 0 auto;
-	margin-top: 20px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 100px;
 	
 }
 .chif-txt {
@@ -550,6 +551,57 @@ body, html, h1,h2,h3,h4,h5,p {
     padding-top: 9px;
      font-weight: 200;
 }
+
+.navs2-inner,
+.navs4-inner,
+.navs8-inner {
+	width: 99.1%;
+	height: auto;
+	background-color: #fff;
+	border:1px dotted #1976D2;
+	color:#1976D2;
+	display: none;
+}
+
+.navs2-inner p {
+	margin-left: 60px;
+	border-bottom:1px dotted #1976D2;
+	margin-top: 7px;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.navs4-inner p {
+	margin-left: 60px;
+	border-bottom:1px dotted #1976D2;
+	margin-top: 7px;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.navs8-inner p {
+	margin-left: 60px;
+	border-bottom:1px dotted #1976D2;
+	margin-top: 7px;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.navs2-inner a {
+	color:#1976D2;
+}
+
+.navs4-inner a {
+	color:#1976D2;
+}
+
+.navs8-inner a {
+	color:#1976D2;
+}
+
 
 .navs3 {
 	width: 100%;
@@ -844,7 +896,7 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .main-slider {
 	width: 840px;
-	height: 310px;
+	height: 200px;
 	
 
 }
