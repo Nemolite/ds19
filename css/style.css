@@ -967,9 +967,9 @@ body, html, h1,h2,h3,h4,h5,p {
 	height: 50px;
 	margin: 0 auto;
 	background-color: #1976D2;
-	border-radius: 0px 0px 7px 0px;
+	/*border-radius: 0px 0px 7px 0px;
 -moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;
+-webkit-border-radius: 0px 0px 7px 0px;*/
 }
 
 .news-head h2 {
@@ -987,8 +987,21 @@ body, html, h1,h2,h3,h4,h5,p {
 	width: 95%;
 	height: auto;
 	margin: 0 auto;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	margin-top: 8px;
+}
+
+.news-txt1 p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.news-txt1 span {
+	font-weight: 700;
+}
+
+.news-txt1 a {
+	text-decoration: none;
+	color: #1976D2;
 }
 
 
@@ -1015,9 +1028,9 @@ body, html, h1,h2,h3,h4,h5,p {
 	background-color: #1976D2;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	border-radius: 0px 0px 7px 0px;
+/*	border-radius: 0px 0px 7px 0px;
 -moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;
+-webkit-border-radius: 0px 0px 7px 0px;*/
 }
 
 .photo-head h2 {
@@ -1059,9 +1072,9 @@ body, html, h1,h2,h3,h4,h5,p {
 	background-color: #1976D2;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	border-radius: 0px 0px 7px 0px;
+	/*border-radius: 0px 0px 7px 0px;
 -moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;
+-webkit-border-radius: 0px 0px 7px 0px;*/
 
 
 }
@@ -1393,4 +1406,32 @@ textarea {
 	height: 80px;
 	border-top:1px dotted #fff;
 	clear: both;
+}
+
+.footer-bottom-left {
+	width: 80%;
+	height: 80px;
+	float: left;
+}
+
+.footer-bottom-left h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 29px;
+    margin-left: 80px;
+}
+
+.footer-bottom-right {
+	width: 19%;
+	height: 80px;
+	float: left;
+} 
+
+.footer-bottom-right h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
 }
