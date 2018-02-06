@@ -10,7 +10,6 @@ body, html, h1,h2,h3,h4,h5,p {
 }
 .wrapper {
 	width: 90%;
-	/*height: 2200px;*/
 	height: auto;
 	margin: 0 auto;
 	background-color: #fff;
@@ -48,18 +47,18 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .top-txt {
 	width: 69.999%;
-    height: 220px;
     float: left;
+    height: 195px;
   /*  background-image: url(../img/fontop2.jpeg);*/
 }
 
-.fontop2 {
+/*.fontop2 {
 	width: 100%;
 	background-image: url(../img/fon3top.jpeg);
 	background-position:center;
 	background-size:cover;
 	height: 185px;
-}
+}*/
 
 .empty-top {
 	width: 100%;
@@ -133,125 +132,56 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .top-nav {
    width: 100%;
-   height: 50px;
-   background-color: #1976D2;
+   height: 55px;
+   /*background-color: #1976D2;*/
 
 }
+
+
 
 .navs {
-	width: 80%;
-	height: 50px;
-	margin: 0 auto;
-}
-
-.navs p {
-	margin-top: 16px;
-}
-
-.nav1  {
-	width: 39%;
-	height: 50px;
-	float: left;
-	text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 16px; 
-    font-family: 'Roboto Condensed', sans-serif; 
-     transition: 1s;   
-}
-
-.nav1:hover  {
-	width: 39%;
-	height: 50px;
-	float: left;
-	text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 16px; 
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #328FEB;
-    transition: 1s;    
+	width: 55%;
+	float: right;
+	height: 30px;
+	background-color: #1976D2;
+	-webkit-border-radius: 3px;
+-webkit-border-bottom-right-radius: 0;
+-moz-border-radius: 3px;
+-moz-border-radius-bottomright: 0;
+border-radius: 3px;
+border-bottom-right-radius: 0;
+	margin-right: -15px;
 }
 
 
-
-.nav3  {
-	width: 20%;
-	height: 50px;
-	float: left;
-	text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 16px; 
-    font-family: 'Roboto Condensed', sans-serif;
-    transition: 1s;
+.navs ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  margin-top: 7px;
 }
-
-.nav3:hover  {
-	width: 20%;
-	height: 50px;
-	float: left;
-	text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 16px; 
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #328FEB;
-    transition: 1s;
-}
-
-.nav4  {
-	width: 20%;
-	height: 50px;
-	float: left;
-	text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 16px; 
-    font-family: 'Roboto Condensed', sans-serif;
-    transition: 1s;
-}
-
-.nav4:hover  {
-	width: 20%;
-	height: 50px;
-	float: left;
-	text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 16px; 
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #328FEB;
-    transition: 1s;
-}
-
-.nav5  {
-	width: 20%;
-	height: 50px;
-	float: left;
-	text-align: center;
-	text-transform: uppercase;
+.navs a {text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    font-family: Arial, Helvetica, sans-serif;
 	color:#fff;
-	font-size: 16px;
-	font-family: 'Roboto Condensed', sans-serif; 
-    transition: 1s;
+	margin-top: 10px;
 }
 
-.nav5:hover  {
-	width: 20%;
-	height: 50px;
-	float: left;
-	text-align: center;
-	text-transform: uppercase;
-	color:#fff;
-	font-size: 16px;
-	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #328FEB; 
-    transition: 1s;
+.navs li {
+	display: inline;
+	margin-left: 100px;
+	
+	
 }
 
-
-
+.dekor {
+    position: relative;
+    margin-top: 5px;
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #51AEF3;
+    border-right: 15px solid transparent;	
+}
 
 /*top-banners*/
 
@@ -453,14 +383,14 @@ body, html, h1,h2,h3,h4,h5,p {
 	width: 30%;
 	float: left;
 	height: auto;
-	 /*border:1px solid #1976D2;*/
+	 
 }
 
 .content-right-main {
 	width: 69.5%;
 	float: left;
 	height: auto;
-	 /*border:1px solid #1976D2;*/
+	
 }
 
 
@@ -468,9 +398,10 @@ body, html, h1,h2,h3,h4,h5,p {
 	width: 79%;
 	height: auto;
 	margin: 0 auto;
-	/* border:1px solid #1976D2;*/
-	background-color: #1976D2;
+	/*background-color: #1976D2;*/
 	margin-bottom: 29px;
+	margin-top: 20px;
+
 }
 
 
@@ -478,52 +409,33 @@ body, html, h1,h2,h3,h4,h5,p {
 	text-decoration:none;
 }
 
-.navs1 {
-	width: 100%;
-    height: 40px;
-    border-bottom: 1px dotted #fff;
-     transition: 1s;
-}
 
-.navs1:hover {
-	width: 100%;
-    height: 40px;
-    background-color:#328FEB;
-     transition: 1s;
-}
-
-
-.navs1 h3 {
-	text-transform: uppercase;
-	color:#fff;
-	font-family: 'Roboto Condensed', sans-serif;
-	margin-left: 49px;
-    padding-top: 9px;
-     font-weight: 200;
-}
 
 
 .navs2 {
 	width: 100%;
-    height: 80px;
+    height: auto;
     border-bottom: 1px dotted #fff;
-     transition: 1s;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .navs2:hover {
 	width: 100%;
-    height: 80px;
-    background-color:#328FEB;
+    height: auto;
+    /*background-color:#328FEB;*/
+     background-color:rgba(50,143,235,0.1);
      transition: 1s;
 }
 
 .navs2 h3 {
-	text-transform: uppercase;
-	color:#fff;
+	/*text-transform: uppercase;*/
+	color:#1976D2;
 	font-family: 'Roboto Condensed', sans-serif;
-	margin-left: 49px;
+	margin-left: 20px;
     padding-top: 7px;
      font-weight: 200;
+     font-size: 19px;
 }
 
 .navs21 {
@@ -543,7 +455,7 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .navs21 h3 {
 	text-transform: uppercase;
-	color:#fff;
+	color:#1976D2;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin-left: 49px;
     padding-top: 9px;
@@ -556,7 +468,7 @@ body, html, h1,h2,h3,h4,h5,p {
 	width: 99.1%;
 	height: auto;
 	background-color: #fff;
-	border:1px dotted #1976D2;
+	/*border:1px dotted #1976D2;*/
 	color:#1976D2;
 	display: none;
 }
@@ -893,13 +805,10 @@ body, html, h1,h2,h3,h4,h5,p {
 /*main-slider*/
 
 .main-slider {
-	width: 840px;
+	width: 100%;
 	height: 200px;
-	
 
 }
-
-
 
 
 .wiget {
@@ -965,16 +874,13 @@ body, html, h1,h2,h3,h4,h5,p {
 	height: 50px;
 	margin: 0 auto;
 	background-color: #1976D2;
-	/*border-radius: 0px 0px 7px 0px;
--moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;*/
+
 }
 
 .news-head h2 {
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
 	padding-top: 11px;
 	margin-top: 8px;
@@ -986,12 +892,17 @@ body, html, h1,h2,h3,h4,h5,p {
 	width: 95%;
 	height: auto;
 	margin: 0 auto;
-	/*border:1px solid red;*/
 	margin-top: 8px;
 }
 
 .news-txt1 p {
 	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.news-txt1 p:nth-child(2) {
+	border-bottom:1px dotted #1976D2;
+
 }
 
 .news-txt1 span {
@@ -1011,7 +922,7 @@ body, html, h1,h2,h3,h4,h5,p {
 	height: 330px;
 	border:1px dotted #1976D2;
 	clear: both;
-	/*background-color: #F04235;*/
+	
 }
 
 .photo {
@@ -1027,16 +938,13 @@ body, html, h1,h2,h3,h4,h5,p {
 	background-color: #1976D2;
 	margin-top: 8px;
 	margin-bottom: 8px;
-/*	border-radius: 0px 0px 7px 0px;
--moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;*/
+
 }
 
 .photo-head h2 {
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
 	padding-top: 11px;
 	font-family: 'Philosopher', sans-serif;
@@ -1072,10 +980,6 @@ body, html, h1,h2,h3,h4,h5,p {
 	background-color: #1976D2;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	/*border-radius: 0px 0px 7px 0px;
--moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;*/
-
 
 }
 
@@ -1083,7 +987,6 @@ body, html, h1,h2,h3,h4,h5,p {
    color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
 	padding-top: 11px;
 	font-family: 'Philosopher', sans-serif;
@@ -1100,7 +1003,6 @@ body, html, h1,h2,h3,h4,h5,p {
 .banners {
 	width: 100%;
 	height: 250px;
-	/*border:1px solid #1976D2;*/
 	clear: both;
 }
 
@@ -1110,9 +1012,6 @@ body, html, h1,h2,h3,h4,h5,p {
 	margin: 0 auto;
 	background-color: #1976D2;
 	margin-top: 5px;
-	/*border-radius: 0px 0px 7px 0px;
--moz-border-radius: 0px 0px 7px 0px;
--webkit-border-radius: 0px 0px 7px 0px;*/
 
 }
 
@@ -1120,7 +1019,6 @@ body, html, h1,h2,h3,h4,h5,p {
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 200;
 	padding-top: 11px;
 	font-family: 'Philosopher', sans-serif;
@@ -1131,18 +1029,6 @@ body, html, h1,h2,h3,h4,h5,p {
 	height: 100px;
 	
 }
-
-.banners-line-step {
-	width: 19%;
-	height: 90px;
-	border:1px dotted #1976D2;
-	margin-left: 8px;
-	margin-top: 5px;
-	float: left;
-
-}
-
-
 
 /*footer*/
 .footer {
