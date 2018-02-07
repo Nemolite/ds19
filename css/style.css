@@ -561,16 +561,17 @@ border-bottom-right-radius: 0;
 /*video */
 .video-photo {
 	width: 100%;
-	height: 285px;
+	height: auto;
 	border:1px dotted #1976D2;
 	clear: both;
 	
 }
 
 .photo {
-	width: 69%;
-	height: 285px;
+	width: 61%;
+	height: auto;
 	float: left;
+	/*border:1px solid red;*/
 }
 
 .photo-head {
@@ -584,7 +585,7 @@ border-bottom-right-radius: 0;
 }
 
 .photo-head h2 {
-	color:#000f;
+	color:#000;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 200;
@@ -594,25 +595,31 @@ border-bottom-right-radius: 0;
 
 .photo-basa {
 	width: 100%;
-	height: 202px;
+	height: auto;
 	margin-left: 30px;
 	
 }
 
 .video {
-	width: 30%;
-	height: 285px;
-	float: left;
+	width: 33%;
+    height: 300px;
+    float: left;
+    margin-left: 27px;
 }
 
-.photo-img-1,
-.photo-img-2,
-.photo-img-3 {
+.photo-img  {
 	width: 32%;
-	height: 200px;
-	float: left;
-	margin-left: 7px;
+    /* height: 200px; */
+    float: left;
+    margin-left: 7px;
+    /* margin-top: 15px; */
 	
+}
+
+.photo-img:nth-child(4),
+.photo-img:nth-child(5),
+.photo-img:nth-child(6)  {
+	margin-top: 15px;
 }
 
 
@@ -636,8 +643,8 @@ border-bottom-right-radius: 0;
 }
 
 .video-frame {
-    width: 70%;
-    height: 200px;
+    width: 100%;
+    height: 315px;
     margin: 0 auto;
 }
 
@@ -677,7 +684,7 @@ border-bottom-right-radius: 0;
 /*footer*/
 .footer {
 	width: 100%;
-	height: 450px;
+	height: auto;
 	clear: both;
 	/*background-color: #1976D2;*/
 
@@ -685,14 +692,14 @@ border-bottom-right-radius: 0;
 
 .footer-head {
 	width: 100%;
-	height: 370px;
+	height: auto;
 }
 
 .footer-map,
 .footer-contact,
 .footer-dop {
 	width: 33%;
-	height: 370px;
+	height: auto;
 	float: left;
 }
 
@@ -715,9 +722,10 @@ border-bottom-right-radius: 0;
 
 .footer-map-item {
 	width: 90%;
-	height: 300px;
+	height: auto;
 	margin: 0 auto;
 	margin-top: 20px;
+	padding-left: 85px;
 }
 
 .footer-contact-txt {
@@ -781,14 +789,14 @@ border-bottom-right-radius: 0;
 
 .footer-phone {
 	width: 100%;
-	height: 60px;
+	height: auto;
 	
 }
 
 
 .footer-email {
 	width: 100%;
-	height: 60px;
+	height: auto;
 	
 }
 
@@ -866,7 +874,7 @@ border-bottom-right-radius: 0;
 
 .footer-dop-form {
 	width: 80%;
-	height: 287px;
+	height: auto;
 	margin: 0 auto;
 	margin-top: 30px;
 }
@@ -958,14 +966,14 @@ textarea {
 
 .footer-bottom {
 	width: 100%;
-	height: 80px;
+	height: 30px;
 	border-top:1px dotted #fff;
 	clear: both;
 }
 
 .footer-bottom-left {
-	width: 80%;
-	height: 80px;
+	width: 70%;
+	height: 30px;
 	float: left;
 }
 
@@ -974,13 +982,13 @@ textarea {
     /*color: #fff;*/
     color:#000;
     font-weight: 300;
-    margin-top: 29px;
+   /* margin-top: 29px;*/
     margin-left: 80px;
 }
 
 .footer-bottom-right {
-	width: 19%;
-	height: 80px;
+	width: 29%;
+	height: 30px;
 	float: left;
 } 
 
@@ -989,6 +997,6 @@ textarea {
    /* color: #fff;*/
    color:#000;
     font-weight: 300;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     text-align: center;
 }
