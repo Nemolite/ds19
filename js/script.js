@@ -18,6 +18,13 @@ $(document).ready(function(){
 
 });
 
+
+$(document).ready(function(){
+   
+   $("#welcome-right").click(function(){$("#info-txt").toggle(1000)});
+   
+});
+
 // фенсибокс
 
 $(document).ready(function() {
@@ -26,3 +33,5 @@ $(document).ready(function() {
 		closeEffect	: 'none'
 	});
 });
+
+
