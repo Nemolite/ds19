@@ -13,6 +13,8 @@ body, html, h1,h2,h3,h4,h5,p {
 	height: auto;
 	margin: 0 auto;
 	background-color: #fff;
+	margin-bottom: 50px;
+
 	
 
 }
@@ -81,51 +83,39 @@ body, html, h1,h2,h3,h4,h5,p {
 	font-weight: 700;
 }
 .reward {
-	width: 100%;
+	width: 85%;
 	height: 65px;
+
 	
 }
 
-.reward1 {
+.medal {
 	width: 65px;
     height: 72px;
-    background-image: url(../img/medal2.jpg);
-    background-position: -42% 9%;
-    float: left;
-    margin-left: 427px;
+    background-image: url(../img/icon/medals-medal-trophy-vector-13663.jpg);
+    background-position: -42% -32%;
+    float: right;
+    
 }
 
-.reward2 {
-    width: 65px;
+.medal2 {
+	width: 65px;
     height: 72px;
-    background-image: url(../img/medal2.jpg);
-    background-position: -58% 9%;
-    float: left;
+    background-image: url(../img/icon/medals-medal-trophy-vector-13663.jpg);
+    background-position: -44% 64%;
+    float: right;
+    
 }
 
-.reward3 {
-    width: 65px;
+.medal3 {
+	width: 65px;
     height: 72px;
-    background-image: url(../img/medal2.jpg);
-    background-position: -95% 20%;
-    float: left;
+      background-image: url(../img/icon/set_of_wax_seal_and_award_design_elements_vector_526130.jpg);
+    background-position: 5% 50%;
+    float: right;
+    
 }
 
-.reward4 {
-    width: 65px;
-    height: 72px;
-    background-image: url(../img/medal2.jpg);
-    background-position: -95% 33%;
-    float: left;
-}
-
-.reward5 {
-    width: 65px;
-    height: 72px;
-    background-image: url(../img/medal2.jpg);
-    background-position: -77% 33%;
-    float: left;
-}
 
 
 /*top-nav*/
@@ -562,6 +552,47 @@ border-bottom-right-radius: 0;
 	float: left;
 }
 
+.ban-left{
+	width: 80%;
+	height: auto;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	/*border:1px solid red;*/
+	background-color: rgba(50,143,235,0.1);
+}
+
+.ban-left-empty {
+	width: 80%;
+	height: 5px;
+	background-color: rgba(50,143,235,0.1);
+
+}
+
+.ban-left-element {
+	width: 89%;
+    height: 85px;
+	margin-top: 10px;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.el-img {
+	width: 40%;
+	height: 85px;
+	float: left;
+	/*border:1px solid red;*/
+}
+
+.el-txt {
+	width: 58%;
+	height: 85px;
+	float: left;
+	/*border:1px solid red;*/
+}
 /*news*/
 
 
@@ -668,18 +699,19 @@ border-bottom-right-radius: 0;
 /*video */
 .video-photo {
 	width: 100%;
-	height: auto;
-	/*border:1px dotted #1976D2;*/
+	height: 420px;
 	clear: both;
-	padding-top: 30px;
-	
+	background-color: rgba(50,143,235,0.1);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 7px;
 }
 
 .photo {
 	width: 61%;
 	height: auto;
 	float: left;
-	/*border:1px solid red;*/
+	
 }
 
 .photo-head {
@@ -773,8 +805,8 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	width: 100%;
 	height: auto;
 	clear: both;
-	padding-top: 40px;
-	padding-bottom: 193px;
+	padding-top: 5px;
+	padding-bottom: 210px;
 	background-color: #FFF2F2;
 }
 
@@ -869,7 +901,7 @@ border-bottom-left-radius: 5px;
 .part-line {
 	width: 100%;
 	height: 5px;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 
 }
 
@@ -908,6 +940,12 @@ border-bottom-left-radius: 5px;
 	clear: both;
 	background-color: #F3F7FA;
     padding-top: 30px;
+    -webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 }
 
 .footer-head {
@@ -1195,6 +1233,12 @@ textarea {
 	height: 40px;
 	border-top:1px dotted #fff;
 	clear: both;
+	-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 }
 
 .footer-bottom-left {
