@@ -22,49 +22,39 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .top {
 	width: 100%;
-	height: 195px;
-	background-image: url(../img/foni-dlya-detskoy-knigi.jpg);
+	height: 255px;
+	background-image: url(../img/tekst-i-akkordy-jik-rezinovyy-nikitiny-56656-large.jpg);
     background-position: 50% 50%;
-    background-size: 1215px 196px;
+    background-size: 1215px 256px;
     background-repeat: no-repeat;
 		
 }
 
 .logo {
 	width: 30%;
-	height: 220px;
+	height: 195px;
 	float: left;
 }
 
 .logo-img {
 	width: 80%;
-    height: 200px;
+    height: 195px;
     margin-left: 36px;
-    background-image: url(../img/logo2.jpg);
+    background-image: url(../img/logo3.png);
     background-position: 50% 50%;
     background-size: 237px 170px;
     background-repeat: no-repeat;
 }
 
 
-	
-	
-
-
 .top-txt {
 	width: 69.999%;
     float: left;
-    height: 195px;
+    height: 85px;
   /*  background-image: url(../img/fontop2.jpeg);*/
 }
 
-/*.fontop2 {
-	width: 100%;
-	background-image: url(../img/fon3top.jpeg);
-	background-position:center;
-	background-size:cover;
-	height: 185px;
-}*/
+
 
 .empty-top {
 	width: 100%;
@@ -73,9 +63,12 @@ body, html, h1,h2,h3,h4,h5,p {
 
 .top-txt h1 {
 	font-family: 'Open Sans', sans-serif;
-	color:#1976D2;
+	/*color:#1976D2;*/
 	font-weight: 500;
-	margin-top: 30px;
+	margin-top: 10px;
+	font-style:italic;
+	color:#fff;
+	text-shadow: 2px 2px 2px rgba(25, 118, 210, 1);
 
 }
 
@@ -96,13 +89,75 @@ body, html, h1,h2,h3,h4,h5,p {
 .medal {
 	width: 65px;
     height: 72px;
-   
     float: right;
     
 }
 
+.medal-txt {
+	display: none;
+	position: relative;
+	margin-left: -100px;
+    width: 260px;
+    height: 126px;
+	border:1px solid #1976D2;
+	background: rgba(25,118,210,0.7);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+-moz-box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+}
 
+.medal-txt p {
+	font-size: 12px;
+	color:#fff;
+	margin-left: 12px;
+}
 
+.medal-txt2 {
+	display: none;
+	position: relative;
+	margin-left: -100px;
+    width: 260px;
+    height: 100px;
+	border:1px solid #1976D2;
+	background: rgba(25,118,210,0.7);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+-moz-box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+}
+
+.medal-txt2 p {
+	font-size: 12px;
+	color:#fff;
+	margin-left: 12px;
+}
+
+.medal-txt3 {
+	display: none;
+	position: relative;
+	margin-left: -100px;
+    width: 260px;
+    height: 61px;
+	border:1px solid #1976D2;
+	background: rgba(25,118,210,0.7);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+-moz-box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+box-shadow: 3px 3px 5px 0px rgba(25,118,210,1);
+}
+
+.medal-txt3 p {
+	font-size: 12px;
+	color:#fff;
+	margin-left: 12px;
+}
 
 
 /*top-nav*/
@@ -128,27 +183,39 @@ body, html, h1,h2,h3,h4,h5,p {
 border-radius: 3px;
 border-bottom-right-radius: 0;
 	margin-right: -15px;
+	margin-top: 125px;
 }
 
 
 .navs ul {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
   margin-top: 7px;
 }
-.navs a {text-decoration: none; /*убираем подчеркивание текста ссылок*/
+.navs a {
+	text-decoration: none; 
     font-family: Arial, Helvetica, sans-serif;
 	color:#fff;
 	margin-top: 10px;
+}
+
+.navs a:hover {
+	text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+	color: #d50000;
+	margin-top: 8px;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #fff;
 }
 
 .navs li {
 	display: inline;
 	margin-left: 52px;
 	
-	
 }
+
+
 
 .dekor {
     position: relative;

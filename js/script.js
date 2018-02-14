@@ -34,4 +34,45 @@ $(document).ready(function() {
 	});
 });
 
+// hover
+
+$(document).ready(function(){
+  $("#med1").hover(
+
+ function() {
+   $( "#med1-txt").fadeIn( 500 );
+  }, function() {
+   $( "#med1-txt" ).fadeOut( 500 );
+  }
+
+);
+
+}); 
+
+
+$(document).ready(function(){
+  $("#med2").hover(
+
+ function() {
+   $( "#med2-txt").fadeIn( 500 );
+  }, function() {
+   $( "#med2-txt" ).fadeOut( 500 );
+  }
+
+);
+
+}); 
+
+$(document).ready(function(){
+  $("#med3").hover(
+
+ function() {
+   $( "#med3-txt").fadeIn( 500 );
+  }, function() {
+   $( "#med3-txt" ).fadeOut( 500 );
+  }
+
+);
+
+}); 
 
